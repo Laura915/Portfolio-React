@@ -1,21 +1,20 @@
 
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 class App extends Component {
   render() {
     return (
       <HashRouter basename="/">
         <div>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-          </ul>
-
-          <hr />
+          <Navbar/>
   
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route exact path="/About Me" component={About} />
+          <Route exact path="/Works" component={Works} />
+          <Route exact path="/Contact" component={Contact} />
+          
         </div>
       </HashRouter>
     );
@@ -23,6 +22,8 @@ class App extends Component {
 }
 
 const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
+const About = () => <div><h2>About Me</h2></div>
+const Works = () => <div><h2>Works</h2></div>
+const Contact = () => <div><h2>Contact</h2></div>
 
 export default App;
