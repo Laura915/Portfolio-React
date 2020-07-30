@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { HashRouter, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Route exact path="/Works" component={Works} />
           <Route exact path="/Contact" component={Contact} />
           
+          <Footer/>
         </div>
       </HashRouter>
     );
