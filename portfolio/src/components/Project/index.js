@@ -6,7 +6,7 @@ function Project(props) {
       <div className="card" >
         <div className="img-container">
           <a target="_blank" href={props.githubURL}>
-            <img alt={props.altMessage} src={props.image} />
+            <img className="card-img-top" alt={props.altMessage} src={props.image} />
           </a>
         </div>
         <div className="content" >
