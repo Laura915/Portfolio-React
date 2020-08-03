@@ -1,4 +1,4 @@
-/* Cell phone styling */
+/* Small screen styling */
 h2{
   font-size: 30px;
   text-align: center;
@@ -40,4 +40,11 @@ h2{
 
   .row {
     margin: 0 5% 0;
+  }
+
+  /* Medium Screen styling */
+  @media (min-width:768px){
+    .row{
+      margin: 0 0 0 4%;
+    }
   }
