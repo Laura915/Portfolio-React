@@ -66,6 +66,7 @@ function Works() {
       <div className="row " id="works-title">
         <h2 className="col-lg-12" >Works </h2>
       </div>
+      <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4">
       {WorksArr.map(work => (
         <Project
           key={work.id}
@@ -76,6 +77,7 @@ function Works() {
           github_URL={work.github_URL}
         />
       ))}
+      </div>
     </div>
   );
 }
