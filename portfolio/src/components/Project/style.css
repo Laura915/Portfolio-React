@@ -42,9 +42,16 @@ h2{
     margin: 0 5% 0;
   }
 
-  /* Medium Screen styling */
+/* Medium Screen styling */
   @media (min-width:768px){
     .row{
       margin: 0 0 0 4%;
+    }
+  }
+
+/* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .row{
+      margin: 0 5% 0;
     }
   }
