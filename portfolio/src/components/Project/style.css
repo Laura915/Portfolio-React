@@ -37,4 +37,7 @@ h2{
   .card > .content > ul > li {
     margin-top: 18px;
   }
-   
+
+  .row {
+    margin: 0 5% 0;
+  }
