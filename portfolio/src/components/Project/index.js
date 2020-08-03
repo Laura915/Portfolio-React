@@ -3,7 +3,6 @@ import "./style.css";
 
 function Project(props) {
   return (
-    <>
       <div className="card" >
         <div className="img-container">
           <a target="_blank" href={props.githubURL}>
@@ -21,7 +20,6 @@ function Project(props) {
           </ul>
         </div>
       </div>
-    </>
   );
 }
 

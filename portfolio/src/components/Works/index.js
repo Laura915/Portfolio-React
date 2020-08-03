@@ -63,6 +63,9 @@ function Works() {
 
   return (
     <div>
+      <div className="row " id="works-title">
+        <h2 className="col-lg-12" >Works </h2>
+      </div>
       {WorksArr.map(work => (
         <Project
           key={work.id}
