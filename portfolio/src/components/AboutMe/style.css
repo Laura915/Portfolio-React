@@ -6,8 +6,8 @@ img{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    img {
-        margin: 0 0;
+    #contactDiv {
+        margin: 0 10% 0 20%;
     }
  }
 
