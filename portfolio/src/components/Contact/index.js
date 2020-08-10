@@ -1,7 +1,7 @@
 import React from 'react';
 import gitHub from "../../assets/github.png";
 import linkin from "../../assets/linkedin.png";
-import resume from "../../assets/resume.png";
+import resume from "../../assets/resume2.svg";
 
 function Contact() {
 
