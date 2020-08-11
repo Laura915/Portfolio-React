@@ -1,0 +1,17 @@
+#my-background {
+    background-image:url("../../assets/background.jpg") ;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron {
+    background: none;
+    text-align: center;
+}
+.lead{
+    font-weight: bolder;
+}
+

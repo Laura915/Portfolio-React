@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Works from './components/Works';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
@@ -25,10 +26,5 @@ class App extends Component {
     );
   }
 }
-
-const Home = () => <div><h2>Home</h2></div>
-// const About = () => <div><h2>About Me</h2></div>
-// const Works = () => <div><h2>Works</h2></div>
-// const Contact = () => <div><h2>Contact</h2></div>
 
 export default App;
