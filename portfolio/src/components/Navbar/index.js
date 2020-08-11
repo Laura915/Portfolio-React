@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./style.css";
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light ">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand nav-font" to="/">
                 Laura's Portfolio
-       </Link>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -18,7 +19,7 @@ function Navbar() {
                         <Link
                             to="/About Me"
                             className={window.location.pathname === "/About Me" ? "nav-link active" : "nav-link"} >
-                                 About Me
+                            About Me
                         </Link>
                     </li>
 
@@ -34,8 +35,8 @@ function Navbar() {
                         <Link
                             to="/Contact"
                             className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>
-                                Contact
-                             </Link>
+                            Contact
+                        </Link>
                     </li>
 
                 </ul>
