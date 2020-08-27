@@ -16,7 +16,7 @@ function Contact() {
                     <img src={gitHub} id="contact-page-img"/></a>
                 </div>
                 <div className="col-md-3 contact-info">
-                    <a target="_blank" href="https://docs.google.com/document/d/13ArlAIxCpcHps88ZAzAdblW3xSqhC_fwJLsnfRVwTAs/edit?usp=sharing">
+                    <a target="_blank" href="https://docs.google.com/document/d/1Bm981FGnPw2hITe2ydcvvMU3Fal0U66A_M-Fsqx-m1g/edit">
                         <img src={resume} id="contact-page-img" /></a>
                 </div>
                 <div className="col-md-3 contact-info"><a target="_blank" href="https://www.linkedin.com/in/---laura-hernandez---">
