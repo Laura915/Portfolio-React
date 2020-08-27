@@ -7,6 +7,7 @@ import passwordGen from "../../assets/passwordGen.png";
 import noteTaker from "../../assets/note-taker.png";
 import burger from "../../assets/burger.png";
 import trainingZone from "../../assets/training-zone.png";
+import NetFling from "../../assets/NetFling.png";
 
 let WorksArr = [
   {
@@ -56,6 +57,14 @@ let WorksArr = [
     altMessage: "Note text area and lists of todos",
     technologies: "HTML JavaScript JQuery CSS",
     github_URL: "https://laura915.github.io/Work-Day-Scheduler/"
+  },
+  {
+    id: 7,
+    name: "NetFling",
+    image: NetFling,
+    altMessage: "NetFling Create profile page",
+    technologies: "JavaScript Mongo Node React HTML CSS",
+    github_URL: "https://netfling.herokuapp.com/"
   }
 ]
 

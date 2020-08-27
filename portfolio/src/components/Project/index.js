@@ -5,7 +5,7 @@ function Project(props) {
   return (
       <div className="card" >
         <div className="img-container">
-          <a target="_blank" href={props.githubURL}>
+          <a target="_blank" href={props.github_URL}>
             <img className="card-img-top" alt={props.altMessage} src={props.image} />
           </a>
         </div>
