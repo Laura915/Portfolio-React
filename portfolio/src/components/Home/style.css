@@ -1,5 +1,5 @@
 #my-background {
-    background-image:url("../../assets/background.jpg") ;
+    background-image:url("../../assets/grey_background.jpg") ;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,8 @@
     background: none;
     text-align: center;
 }
+
 .lead{
-    font-weight: bolder;
+    font-weight: 600;
 }
 
