@@ -25,9 +25,9 @@ class App extends Component {
               <Route exact path="/Contact" component={Contact} />
             </div>
 
-            <Footer  />
+            <Footer/>
+            
           </div>
-
 
         </div>
       </HashRouter>
