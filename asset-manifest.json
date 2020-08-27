@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.f9c52b15.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.30b6742f.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.30b6742f.chunk.js.map",
+    "main.css": "/Portfolio-React/static/css/main.b1f59077.chunk.css",
+    "main.js": "/Portfolio-React/static/js/main.0db0fb78.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.0db0fb78.chunk.js.map",
     "runtime-main.js": "/Portfolio-React/static/js/runtime-main.cc5fc537.js",
     "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.cc5fc537.js.map",
-    "static/js/2.2cf6d52c.chunk.js": "/Portfolio-React/static/js/2.2cf6d52c.chunk.js",
-    "static/js/2.2cf6d52c.chunk.js.map": "/Portfolio-React/static/js/2.2cf6d52c.chunk.js.map",
+    "static/js/2.f4e515a9.chunk.js": "/Portfolio-React/static/js/2.f4e515a9.chunk.js",
+    "static/js/2.f4e515a9.chunk.js.map": "/Portfolio-React/static/js/2.f4e515a9.chunk.js.map",
     "index.html": "/Portfolio-React/index.html",
-    "precache-manifest.86ecb1e1d90348219b4c34c15fc1486c.js": "/Portfolio-React/precache-manifest.86ecb1e1d90348219b4c34c15fc1486c.js",
+    "precache-manifest.3a43e6be5834b58414e334bccbf1ebf1.js": "/Portfolio-React/precache-manifest.3a43e6be5834b58414e334bccbf1ebf1.js",
     "service-worker.js": "/Portfolio-React/service-worker.js",
-    "static/css/main.f9c52b15.chunk.css.map": "/Portfolio-React/static/css/main.f9c52b15.chunk.css.map",
-    "static/js/2.2cf6d52c.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.2cf6d52c.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/Portfolio-React/static/media/background.87585cb0.jpg",
+    "static/css/main.b1f59077.chunk.css.map": "/Portfolio-React/static/css/main.b1f59077.chunk.css.map",
+    "static/js/2.f4e515a9.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.f4e515a9.chunk.js.LICENSE.txt",
+    "static/media/NetFling.png": "/Portfolio-React/static/media/NetFling.1d41dfca.png",
     "static/media/burger.png": "/Portfolio-React/static/media/burger.6eaa2b7a.png",
     "static/media/github.png": "/Portfolio-React/static/media/github.1d7fc975.png",
+    "static/media/style.css": "/Portfolio-React/static/media/grey_background.b8bee654.jpg",
     "static/media/laura_prof.png": "/Portfolio-React/static/media/laura_prof.32159dd1.png",
     "static/media/linkedin.png": "/Portfolio-React/static/media/linkedin.73c22f8a.png",
     "static/media/note-taker.png": "/Portfolio-React/static/media/note-taker.29206abc.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cc5fc537.js",
-    "static/js/2.2cf6d52c.chunk.js",
-    "static/css/main.f9c52b15.chunk.css",
-    "static/js/main.30b6742f.chunk.js"
+    "static/js/2.f4e515a9.chunk.js",
+    "static/css/main.b1f59077.chunk.css",
+    "static/js/main.0db0fb78.chunk.js"
   ]
 }
