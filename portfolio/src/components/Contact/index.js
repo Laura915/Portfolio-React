@@ -2,6 +2,7 @@ import React from 'react';
 import gitHub from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import resume from "../../assets/resume2.svg";
+import './style.css';
 
 function Contact() {
 
@@ -12,14 +13,14 @@ function Contact() {
             </div>
             <div className="row" id="contactDiv">
                 <div className="col-md-3 contact-info"><a target="_blank" href="https://github.com/Laura915">
-                    <img src={gitHub} /></a>
+                    <img src={gitHub} id="contact-page-img"/></a>
                 </div>
                 <div className="col-md-3 contact-info">
                     <a target="_blank" href="https://docs.google.com/document/d/13ArlAIxCpcHps88ZAzAdblW3xSqhC_fwJLsnfRVwTAs/edit?usp=sharing">
-                        <img src={resume} /></a>
+                        <img src={resume} id="contact-page-img" /></a>
                 </div>
                 <div className="col-md-3 contact-info"><a target="_blank" href="https://www.linkedin.com/in/---laura-hernandez---">
-                    <img src={linkedin} /></a>
+                    <img src={linkedin} id="contact-page-img"/></a>
                 </div>
             </div>
         </div>
