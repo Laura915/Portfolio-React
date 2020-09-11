@@ -16,7 +16,8 @@ let WorksArr = [
     image: savor,
     altMessage: "Savor app with display of Ciara's Level up lyrics",
     technologies: "Materialize HTML JavaScript JQuery CSS ItunesAPI lyrics.ovhAPI",
-    github_URL: "https://caseyvanalstyne.github.io/Savor"
+    app_URL: "https://caseyvanalstyne.github.io/Savor",
+    github_URL: "https://github.com/CaseyVanAlstyne/Savor"
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ let WorksArr = [
     image: scheduler,
     altMessage: "calendar app with list of inputs from 9-5",
     technologies: "HTML JavaScript JQuery CSS ",
-    github_URL: "https://laura915.github.io/Work-Day-Scheduler/"
+    app_URL: "https://laura915.github.io/Work-Day-Scheduler/",
+    github_URL:"https://github.com/Laura915/Work-Day-Scheduler"
   },
   {
     id: 3,
@@ -32,7 +34,8 @@ let WorksArr = [
     image: passwordGen,
     altMessage: "Button and output area with generated password",
     technologies: "HTML JavaScript CSS ",
-    github_URL: "https://laura915.github.io/Password-Generator/"
+    app_URL: "https://laura915.github.io/Password-Generator/",
+    github_URL:"https://github.com/Laura915/Password-Generator"
   },
   {
     id: 4,
@@ -40,7 +43,8 @@ let WorksArr = [
     image: burger,
     altMessage: "Burger app with available and finished burgers list",
     technologies: "HTML JavaScript JQuery CSS express-handlebars mysql Node",
-    github_URL: "https://secure-beyond-70824.herokuapp.com/"
+    app_URL: "https://secure-beyond-70824.herokuapp.com/",
+    github_URL:"https://github.com/Laura915/Burger"
   },
   {
     id: 5,
@@ -48,7 +52,8 @@ let WorksArr = [
     image: trainingZone,
     altMessage: "2 weekly work out cards",
     technologies: "HTML JavaScript JQuery CSS express-handlebars mysql",
-    github_URL: "https://laura915.github.io/Work-Day-Scheduler/"
+    app_URL: "https://project2group4bcs.herokuapp.com/",
+    github_URL:"https://github.com/Laura915/project2"
   },
   {
     id: 6,
@@ -56,7 +61,8 @@ let WorksArr = [
     image: noteTaker,
     altMessage: "Note text area and lists of todos",
     technologies: "HTML JavaScript JQuery CSS",
-    github_URL: "https://laura915.github.io/Work-Day-Scheduler/"
+    app_URL: "https://note-taker-laura.herokuapp.com/notes",
+    github_URL:"https://github.com/Laura915/Note-Taker"
   },
   {
     id: 7,
@@ -64,7 +70,8 @@ let WorksArr = [
     image: NetFling,
     altMessage: "NetFling Create profile page",
     technologies: "JavaScript Mongo Node React HTML CSS",
-    github_URL: "https://netfling.herokuapp.com/"
+    app_URL: "https://netfling.herokuapp.com/",
+    github_URL:"https://github.com/sidseal/project3"
   }
 ]
 
@@ -76,16 +83,17 @@ function Works() {
         <h2 className="col-lg-12" >Works </h2>
       </div>
       <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4">
-      {WorksArr.map(work => (
-        <Project
-          key={work.id}
-          name={work.name}
-          image={work.image}
-          altMessage={work.altMessage}
-          technologies={work.technologies}
-          github_URL={work.github_URL}
-        />
-      ))}
+        {WorksArr.map(work => (
+          <Project
+            key={work.id}
+            name={work.name}
+            image={work.image}
+            altMessage={work.altMessage}
+            technologies={work.technologies}
+            app_URL={work.app_URL}
+            github_URL={work.github_URL}
+          />
+        ))}
       </div>
     </div>
   );

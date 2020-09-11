@@ -5,7 +5,7 @@ function Project(props) {
   return (
       <div className="card" >
         <div className="img-container">
-          <a target="_blank" href={props.github_URL}>
+          <a target="_blank" href={props.app_URL}>
             <img className="card-img-top" alt={props.altMessage} src={props.image} />
           </a>
         </div>
@@ -16,6 +16,9 @@ function Project(props) {
             </li>
             <li>
               <strong>Technologies:</strong> {props.technologies}
+            </li>
+            <li>
+            <a target="_blank" href={props.github_URL} class="card-link">GitHub</a>
             </li>
           </ul>
         </div>
