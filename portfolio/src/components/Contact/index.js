@@ -2,6 +2,7 @@ import React from 'react';
 import gitHub from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import resume from "../../assets/resume2.svg";
+import lauraResume from "../../assets/Laura_Hernandez_Resume.pdf"
 import './style.css';
 
 function Contact() {
@@ -16,7 +17,7 @@ function Contact() {
                     <img src={gitHub} id="contact-page-img"/></a>
                 </div>
                 <div className="col-md-3 contact-info">
-                    <a target="_blank" href="https://docs.google.com/document/d/1Bm981FGnPw2hITe2ydcvvMU3Fal0U66A_M-Fsqx-m1g/edit">
+                    <a target="_blank" href={lauraResume}>
                         <img src={resume} id="contact-page-img" /></a>
                 </div>
                 <div className="col-md-3 contact-info"><a target="_blank" href="https://www.linkedin.com/in/---laura-hernandez---">
