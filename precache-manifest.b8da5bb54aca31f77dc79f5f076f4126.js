@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be72833561c7ff399b6525721679dc0f",
+    "revision": "bcbafa1bce317ec14edba753e8128687",
     "url": "/Portfolio-React/index.html"
   },
   {
-    "revision": "90b64ae2f373a7095a61",
+    "revision": "cd28204a608d3ac702e2",
     "url": "/Portfolio-React/static/css/main.a78e3269.chunk.css"
   },
   {
-    "revision": "a8bb33f9b59f75e81241",
-    "url": "/Portfolio-React/static/js/2.f4e515a9.chunk.js"
+    "revision": "67146bb9a11bb9b9d206",
+    "url": "/Portfolio-React/static/js/2.cf91307d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Portfolio-React/static/js/2.f4e515a9.chunk.js.LICENSE.txt"
+    "url": "/Portfolio-React/static/js/2.cf91307d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90b64ae2f373a7095a61",
-    "url": "/Portfolio-React/static/js/main.a428feef.chunk.js"
+    "revision": "cd28204a608d3ac702e2",
+    "url": "/Portfolio-React/static/js/main.188b9dea.chunk.js"
   },
   {
     "revision": "c1f405c32fd866263023",
     "url": "/Portfolio-React/static/js/runtime-main.cc5fc537.js"
+  },
+  {
+    "revision": "511217e9dbffbee12aa1b410cfc1f30d",
+    "url": "/Portfolio-React/static/media/Laura_Hernandez_Resume.511217e9.pdf"
   },
   {
     "revision": "1d41dfcabb3fca9c34b026f6ec286618",
