@@ -14,14 +14,14 @@ function Contact() {
             </div>
             <div className="row" id="contactDiv">
                 <div className="col-md-3 contact-info"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Laura915">
-                    <img src={gitHub} id="contact-page-img"/></a>
+                    <img src={gitHub} id="contact-page-img" alt="Resume icon"/></a>
                 </div>
                 <div className="col-md-3 contact-info">
                     <a target="_blank" rel="noopener noreferrer"  href={lauraResume}>
-                        <img src={resume} id="contact-page-img" /></a>
+                        <img src={resume} id="contact-page-img" alt="Resume icon" /></a>
                 </div>
                 <div className="col-md-3 contact-info"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/---laura-hernandez---">
-                    <img src={linkedin} id="contact-page-img" /></a>
+                    <img src={linkedin} id="contact-page-img" alt="LinkedIn icon" /></a>
                 </div>
             </div>
         </div>

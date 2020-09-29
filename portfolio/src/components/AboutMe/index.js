@@ -16,7 +16,7 @@ function AboutMe() {
 
             <div className=" col-md-4" id="profileDiv">
 
-                <img id="profile-pic" role ="img" src={aboutMePic} alt="Laura smiling" />
+                <img id="profile-pic" src={aboutMePic} alt="Laura smiling" />
             </div>
             <div className=" col-md-8" id="bioDiv">
                 <p className="bioP">
