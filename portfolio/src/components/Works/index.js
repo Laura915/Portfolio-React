@@ -17,7 +17,8 @@ let WorksArr = [
     altMessage: "Savor app with display of Ciara's Level up lyrics",
     technologies: "Materialize HTML JavaScript JQuery CSS ItunesAPI lyrics.ovhAPI",
     app_URL: "https://caseyvanalstyne.github.io/Savor",
-    github_URL: "https://github.com/CaseyVanAlstyne/Savor"
+    github_URL: "https://github.com/CaseyVanAlstyne/Savor",
+    des: "Mea eros instructior et, graece fuisset vel ne, id wisi habeo qui. Adhuc dictas delectus nec et. Solet explicari intellegatId mel soluta apeirian, ipsum falli voluptatibus eu usu"
   },
   {
     id: 2,
@@ -26,7 +27,8 @@ let WorksArr = [
     altMessage: "calendar app with list of inputs from 9-5",
     technologies: "HTML JavaScript JQuery CSS ",
     app_URL: "https://laura915.github.io/Work-Day-Scheduler/",
-    github_URL:"https://github.com/Laura915/Work-Day-Scheduler"
+    github_URL:"https://github.com/Laura915/Work-Day-Scheduler",
+    des: "Mea eros instructior et, graece fuisset vel ne, id wisi habeo qui. Adhuc dictas delectus nec et. Solet explicari intellegatId mel soluta apeirian, ipsum falli voluptatibus eu usu"
   },
   {
     id: 3,
@@ -35,7 +37,8 @@ let WorksArr = [
     altMessage: "Button and output area with generated password",
     technologies: "HTML JavaScript CSS ",
     app_URL: "https://laura915.github.io/Password-Generator/",
-    github_URL:"https://github.com/Laura915/Password-Generator"
+    github_URL:"https://github.com/Laura915/Password-Generator",
+    des: "Mea eros instructior et, graece fuisset vel ne, id wisi habeo qui. Adhuc dictas delectus nec et. Solet explicari intellegatId mel soluta apeirian, ipsum falli voluptatibus eu usu"
   },
   {
     id: 4,
@@ -44,7 +47,8 @@ let WorksArr = [
     altMessage: "Burger app with available and finished burgers list",
     technologies: "HTML JavaScript JQuery CSS express-handlebars mysql Node",
     app_URL: "https://secure-beyond-70824.herokuapp.com/",
-    github_URL:"https://github.com/Laura915/Burger"
+    github_URL:"https://github.com/Laura915/Burger",
+    des: "Mea eros instructior et, graece fuisset vel ne, id wisi habeo qui. Adhuc dictas delectus nec et. Solet explicari intellegatId mel soluta apeirian, ipsum falli voluptatibus eu usu"
   },
   {
     id: 5,
@@ -53,7 +57,8 @@ let WorksArr = [
     altMessage: "2 weekly work out cards",
     technologies: "HTML JavaScript JQuery CSS express-handlebars mysql",
     app_URL: "https://project2group4bcs.herokuapp.com/",
-    github_URL:"https://github.com/Laura915/project2"
+    github_URL:"https://github.com/Laura915/project2",
+    des: "Mea eros instructior et, graece fuisset vel ne, id wisi habeo qui. Adhuc dictas delectus nec et. Solet explicari intellegatId mel soluta apeirian, ipsum falli voluptatibus eu usu"
   },
   {
     id: 6,
@@ -62,17 +67,19 @@ let WorksArr = [
     altMessage: "Note text area and lists of todos",
     technologies: "HTML JavaScript JQuery CSS",
     app_URL: "https://note-taker-laura.herokuapp.com/notes",
-    github_URL:"https://github.com/Laura915/Note-Taker"
-  },
-  {
-    id: 7,
-    name: "NetFling",
-    image: NetFling,
-    altMessage: "NetFling Create profile page",
-    technologies: "JavaScript Mongo Node React HTML CSS",
-    app_URL: "https://netfling.herokuapp.com/",
-    github_URL:"https://github.com/sidseal/project3"
+    github_URL:"https://github.com/Laura915/Note-Taker",
+    des: "Mea eros instructior et, graece fuisset vel ne, id wisi habeo qui. Adhuc dictas delectus nec et. Solet explicari intellegatId mel soluta apeirian, ipsum falli voluptatibus eu usu"
   }
+  ,
+  // {
+  //   id: 7,
+  //   name: "NetFling",
+  //   image: NetFling,
+  //   altMessage: "NetFling Create profile page",
+  //   technologies: "JavaScript Mongo Node React HTML CSS",
+  //   app_URL: "https://netfling.herokuapp.com/",
+  //   github_URL:"https://github.com/sidseal/project3"
+  // }
 ]
 
 function Works() {
@@ -92,6 +99,7 @@ function Works() {
             technologies={work.technologies}
             app_URL={work.app_URL}
             github_URL={work.github_URL}
+            des={work.des}
           />
         ))}
       </div>

@@ -13,6 +13,9 @@ function Project(props) {
             <strong>{props.name}</strong>
           </li>
           <li>
+            {props.des}
+          </li>
+          <li>
             <strong>Technologies:</strong> {props.technologies}
           </li>
           <li className="card-links">
