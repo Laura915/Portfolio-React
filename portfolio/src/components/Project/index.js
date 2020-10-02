@@ -16,13 +16,13 @@ function Project(props) {
             {props.des}
           </li>
           <li>
-            <strong>Technologies:</strong> {props.technologies}
+            <strong>Tools Used:</strong> {props.technologies}
           </li>
           <li className="card-links">
-            <a target="_blank" rel="noopener noreferrer" href={props.app_URL} class="card-link" >Website</a>
+            <a target="_blank" rel="noopener noreferrer" href={props.app_URL} className="card-link">Website</a>
           </li>
           <li className="card-links github-link">
-            <a target="_blank" rel="noopener noreferrer"  href={props.github_URL} class="card-link">GitHub</a>
+            <a target="_blank" rel="noopener noreferrer"  href={props.github_URL} className="card-link">GitHub</a>
           </li>
         </ul>
       </div>
