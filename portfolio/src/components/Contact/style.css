@@ -1,9 +1,23 @@
-/* Smal screen */
+/* Small screen */
 #contact-page-img{
     height: 150px;
 }
 
-#contactDiv{
-    text-align: center;
+.contactDiv{
+    justify-content: center;
 }
 
+.contact-info{
+    text-align: center;
+}
+/* Email */
+  .email-align{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .email-item{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+  }
