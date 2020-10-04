@@ -78,7 +78,7 @@ function Works() {
       <div className="row " id="works-title">
         <h2 className="col-lg-12" >Works </h2>
       </div>
-      <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+      <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3" id="cards-align">
         {WorksArr.map(work => (
           <Project
             key={work.id}
