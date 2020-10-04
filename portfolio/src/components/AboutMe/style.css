@@ -1,13 +1,27 @@
 /* Small screen */
 #profile-pic{
-    margin: 0% 5% 5% 20%;
+    margin: 3% 5% 5% 20%;
     height: 200px;
     max-width: 60%;
-    border-radius: 30px;
+    border-radius: 90%;
     border: 3px solid black;
     box-shadow: 5px 5px gray;
     display: inline-block;
     float: left;
+}
+.bioP{
+    font-size: 20px;
+    padding: 3%;
+    line-height: 2;
+}
+
+/* Skills Section */
+.skill-list{
+    padding: 10px;
+    font-size: 24px;
+}
+#skills-Div{
+    justify-content: center;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -16,4 +30,3 @@
         margin: 0 10% 0 20%;
     }
  }
-
