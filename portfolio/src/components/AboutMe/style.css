@@ -1,13 +1,13 @@
 /* Small screen */
+#profileDiv{
+    text-align: center;
+}
 #profile-pic{
-    margin: 3% 5% 5% 20%;
     height: 200px;
-    max-width: 60%;
+    max-width: 90%;
     border-radius: 90%;
     border: 3px solid black;
     box-shadow: 5px 5px gray;
-    display: inline-block;
-    float: left;
 }
 .bioP{
     font-size: 20px;
@@ -23,10 +23,10 @@
 #skills-Div{
     justify-content: center;
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #contactDiv {
-        margin: 0 10% 0 20%;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #profile-pic{
+        height: 230px;
     }
  }
+

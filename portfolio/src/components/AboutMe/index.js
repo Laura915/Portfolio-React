@@ -8,14 +8,14 @@ function AboutMe() {
 
     return (
         <div>
-            {/* Title: About Me  row2 */}
+            {/* Title: About Me */}
             <div className="row " id="about-me-title">
                 <h2 className="col-lg-12" >About Me </h2>
             </div>
-            {/* Content: About Me row3 */}
-            <div className="row " id="about-Me-Div">
-                <div className=" col-md-4" id="profileDiv">
-                    <img id="profile-pic" src={aboutMePic} alt="Laura smiling" />
+            {/* Content: About Me */}
+            <div className="row" id="about-Me-Div">
+                <div className="col-md-4 " id="profileDiv">
+                    <img id="profile-pic" src={aboutMePic} alt="Laura smiling"/>
                 </div>
                 <div className=" col-md-8" id="bioDiv">
                     <p className="bioP">
@@ -28,8 +28,8 @@ function AboutMe() {
                 </div>
             </div>
             {/* Title: Skills */}
-            <div className="row " id="about-me-title">
-                <h2 className="col-lg-12" >Skills</h2>
+            <div className="row ">
+                <h2 className="col-lg-12">Skills</h2>
             </div>
             {/* Content: Skills */}
             <div className="row" id="skills-Div">
