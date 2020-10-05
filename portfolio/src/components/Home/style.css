@@ -1,3 +1,4 @@
+/* Small Screen */
 #my-background {
     background-image:url("../../assets/grey_background.jpg") ;
     height: 100vh;
@@ -12,7 +13,18 @@
     text-align: center;
 }
 
-.lead{
-    font-weight: 600;
+#welcome-sign{
+    background-color: black;
+    opacity: 80%;
+    color: whitesmoke;
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .second-line{
+        font-size: 45px;
+    }
+ }
