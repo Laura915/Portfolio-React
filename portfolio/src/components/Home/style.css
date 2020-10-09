@@ -15,7 +15,7 @@
 
 #welcome-sign{
     background-color: black;
-    opacity: 80%;
+    /* opacity: 80% !important; */
     color: whitesmoke;
     border-style: solid;
     border-color: white;
