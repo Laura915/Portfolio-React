@@ -18,16 +18,19 @@ function Contact() {
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Laura915">
                         <img src={gitHub} id="contact-page-img" alt="GitHub icon" />
                     </a>
+                    <p className="email-item">GitHub</p>
                 </div>
                 <div className="col-md-3 contact-info">
                     <a target="_blank" rel="noopener noreferrer" href={lauraResume}>
                         <img src={resume} id="contact-page-img" alt="Resume icon" />
                     </a>
+                    <p className="email-item">Resume</p>
                 </div>
                 <div className="col-md-3 contact-info">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/---laura-hernandez---">
                         <img src={linkedin} id="contact-page-img" alt="LinkedIn icon" />
                     </a>
+                    <p className="email-item">LinkedIn</p>
                 </div>
             </div>
             <div className="row contactDiv">
